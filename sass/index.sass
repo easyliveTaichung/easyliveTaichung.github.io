@@ -242,7 +242,7 @@ body, html
             width: 30px
             height: 30px
             left: -30px
-            top: 50%
+            top: 55%
             transform: translateY(-50%)
             cursor: pointer
             img
@@ -255,7 +255,7 @@ body, html
             width: 30px
             height: 30px
             right: -30px
-            top: 50%
+            top: 55%
             transform: translateY(-50%)
             img
                 position: absolute
@@ -423,6 +423,7 @@ body, html
                 a
                 .commodity
                 p
+
 @media screen and (max-width: 768px)
     .navHeader
         .navbar-brand
@@ -440,7 +441,23 @@ body, html
                             font-size: 16px
                             a
                                 font-size: 12px
-
+    .guestMake
+        width: 80%
+        margin-top: 20px
+        padding-bottom: 30px
+        h5
+            font-size: 28px
+        p
+        .materialAll
+            width: 100%
+            .material
+                margin: 0px 20px
+                .materialText
+                    font-size: 15px
+                img
+                    margin: 0px auto
+                    width: 100%
+                    border-radius: 100%
     .slide
         .carousel-inner
             .carousel-item
@@ -471,9 +488,22 @@ body, html
                 right: -20px
             .left
                 left: -25px
+    .guestMake
+        width: 80%
+        margin-top: 20px
+        padding-bottom: 0px
+        h5
+            font-size: 28px
+        p
+        .materialAll
+            .material
+                .materialText
+                    font-size: 12px
+                img
 @media (min-width: 576px)
     .container
         max-width: 100%
+
 @media screen and (max-width: 540px)
     .navHeader
         .navbar-brand
@@ -481,14 +511,35 @@ body, html
                 top: 10px
         .navbar-toggler
             margin: 0px
-    .news
-        .row
-            .newsContent
-                .box
-                    .box-content
-                        span
-                            line-height: 20px
-                            font-size: 14px
+    .guestMake
+        width: 80%
+        margin-top: 20px
+        padding-bottom: 0px
+        h5
+            font-size: 28px
+        p
+        .materialAll
+            flex-wrap: wrap
+            .material
+                flex-shrink: 0
+                width: 60%
+                position: relative
+                max-height: 120px
+                .materialText  
+                    top: 50%
+                    width: 100%
+                    // background-color: #00ff00
+                    padding: 0px
+                    margin: 0px
+                    // top: 50%
+                    transform: translateY(-50%)
+                    width: 100%
+                    text-align: center
+                    font-size: 18px
+                    position: absolute
+                    color: white
+                img
+                    border-radius: 0PX
 @media screen and (max-width: 438px)
     .coda
         height: 190px

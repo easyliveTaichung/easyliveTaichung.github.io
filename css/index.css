@@ -227,7 +227,7 @@ body, html {
       width: 30px;
       height: 30px;
       left: -30px;
-      top: 50%;
+      top: 55%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -242,7 +242,7 @@ body, html {
       width: 30px;
       height: 30px;
       right: -30px;
-      top: 50%;
+      top: 55%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
@@ -410,6 +410,22 @@ body, html {
       font-size: 16px; }
       .navHeader .navbar-collapse .active .dropdownLayer #pushAll .layerTitle a {
         font-size: 12px; }
+  .guestMake {
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 30px; }
+    .guestMake h5 {
+      font-size: 28px; }
+    .guestMake .materialAll {
+      width: 100%; }
+      .guestMake .materialAll .material {
+        margin: 0px 20px; }
+        .guestMake .materialAll .material .materialText {
+          font-size: 15px; }
+        .guestMake .materialAll .material img {
+          margin: 0px auto;
+          width: 100%;
+          border-radius: 100%; }
   .slide .carousel-inner .carousel-item .firmText {
     width: 50%;
     left: 0px;
@@ -435,7 +451,15 @@ body, html {
   .products .productsButton .right {
     right: -20px; }
   .products .productsButton .left {
-    left: -25px; } }
+    left: -25px; }
+  .guestMake {
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 0px; }
+    .guestMake h5 {
+      font-size: 28px; }
+    .guestMake .materialAll .material .materialText {
+      font-size: 12px; } }
 
 @media (min-width: 576px) {
   .container {
@@ -446,9 +470,36 @@ body, html {
     top: 10px; }
   .navHeader .navbar-toggler {
     margin: 0px; }
-  .news .row .newsContent .box .box-content span {
-    line-height: 20px;
-    font-size: 14px; } }
+  .guestMake {
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 0px; }
+    .guestMake h5 {
+      font-size: 28px; }
+    .guestMake .materialAll {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .guestMake .materialAll .material {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 60%;
+        position: relative;
+        max-height: 120px; }
+        .guestMake .materialAll .material .materialText {
+          top: 50%;
+          width: 100%;
+          padding: 0px;
+          margin: 0px;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 100%;
+          text-align: center;
+          font-size: 18px;
+          position: absolute;
+          color: white; }
+        .guestMake .materialAll .material img {
+          border-radius: 0PX; } }
 
 @media screen and (max-width: 438px) {
   .coda {
