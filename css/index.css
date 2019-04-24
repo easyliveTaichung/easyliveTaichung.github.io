@@ -97,23 +97,6 @@ body, html {
     background-position: center;
     width: 100%; }
 
-.productsLife .lifeAll {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%; }
-  .productsLife .lifeAll .lifePhoto {
-    width: 20%;
-    max-height: 330px;
-    background-position: center;
-    background-repeat: no-repeat; }
-
 .guestMake {
   position: relative;
   display: -webkit-box;
@@ -288,6 +271,23 @@ body, html {
         text-align: center;
         font-size: 18px; }
 
+.productsLife .lifeAll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%; }
+  .productsLife .lifeAll .lifePhoto {
+    width: 20%;
+    max-height: 330px;
+    background-position: center;
+    background-repeat: no-repeat; }
+
 .codaAll {
   width: 100%;
   height: 90px;
@@ -336,6 +336,11 @@ body, html {
 @media screen and (max-width: 991px) {
   .navHeader .navbar-collapse {
     margin-top: 0px; }
+  .navHeader .navbar-brand .titleImg {
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%); }
   .navHeader .navbar-collapse .active {
     width: 50%;
     margin: 0px auto;
@@ -445,7 +450,25 @@ body, html {
       top: 5px;
       padding: 0px 15px; }
   .products {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .codaAll {
+    height: 70px;
+    background-color: #fc7900; }
+    .codaAll .coda {
+      height: 100%;
+      top: 0px;
+      position: relative;
+      width: 100%; }
+      .codaAll .coda .codaLogo {
+        margin: 0px;
+        padding: 0px; }
+        .codaAll .coda .codaLogo img {
+          width: 50px;
+          height: 40px; }
+      .codaAll .coda .codaIcon {
+        top: 0px; }
+        .codaAll .coda .codaIcon .icon img {
+          width: 20px; } }
 
 @media screen and (max-width: 580px) {
   .products .productsButton .right {
@@ -466,8 +489,6 @@ body, html {
     max-width: 100%; } }
 
 @media screen and (max-width: 540px) {
-  .navHeader .navbar-brand .titleImg {
-    top: 10px; }
   .navHeader .navbar-toggler {
     margin: 0px; }
   .guestMake {
@@ -515,7 +536,22 @@ body, html {
     .slide .carousel-inner .carousel-item .firmText h5 {
       font-size: 12px;
       top: 0px;
-      padding: 0px 15px; } }
+      padding: 0px 15px; }
+  .codaAll {
+    height: 50px;
+    background-color: #fc7900; }
+    .codaAll .coda {
+      top: 0px;
+      position: relative;
+      width: 100%; }
+      .codaAll .coda .codaLogo img {
+        width: 40px;
+        height: 30px; }
+      .codaAll .coda .codaIcon {
+        top: -5px; }
+        .codaAll .coda .codaIcon .icon img {
+          margin-right: 10px;
+          width: 20px; } }
 
 @media screen and (max-width: 438px) {
   .slide .carousel-inner .carousel-item .firmText {
@@ -541,9 +577,23 @@ body, html {
     .slide .carousel-inner .carousel-item .firmText h5 {
       top: -5px;
       font-size: 12px; }
-  .coda {
-    height: 190px; }
-    .coda p {
-      font-size: 12px; }
-      .coda p span {
-        display: inline-block; } }
+  .codaAll {
+    height: 30px; }
+    .codaAll .coda .codaLogo {
+      width: 40%;
+      float: left; }
+      .codaAll .coda .codaLogo img {
+        left: 10px;
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%); }
+    .codaAll .coda .codaIcon {
+      width: 40%;
+      float: right;
+      top: 0px;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      height: 100%; }
+      .codaAll .coda .codaIcon .icon img {
+        width: 15px; } }
